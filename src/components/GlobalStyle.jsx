@@ -1,4 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
+import { createGlobalStyle } from 'styled-components';
+import 'normalize.css';
+
+export const GlobalStyle = createGlobalStyle`
 
 body {
   margin: 0;
@@ -25,3 +28,9 @@ button {
   cursor: pointer;
   height: 22px;
 }
+
+input {
+  margin-left: 10px;
+}
+
+`;
