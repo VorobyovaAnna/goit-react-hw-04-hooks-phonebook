@@ -48,7 +48,7 @@ const ContactForm = ({ onSubmit }) => {
         </Label>
         <Label>
           Number
-          <Field name="number" type="text" />
+          <Field name="number" type="tel" />
           <FormError name="number" />
         </Label>
 
